@@ -1,0 +1,30 @@
+[
+	{
+		"model":"Instahyre.Profile",
+		"pk":45,
+		"fields":{
+			"user":Choupsey,
+			"phone_number":9991112222,
+			"email":"chopsey@gmail.com",
+		}
+	},
+    {
+		"model":"Instahyre.Profile",
+		"pk":12,
+		"fields":{
+			"user":Rohan,
+			"phone_number":2223334444,
+			"email":"rohan@gmail.com",
+		}
+	},
+    {
+		"model":"Instahyre.Profile",
+		"pk":18,
+		"fields":{
+			"user":Ruh,
+			"phone_number":8887776666,
+			"email":"ruh@gmail.com",
+		}
+	},
+]
+]
