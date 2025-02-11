@@ -59,8 +59,8 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://ai-powered-spam-detector-application.onrender.com/',
-    'https://ai-spam-detector-application.vercel.app/',
+    'https://ai-powered-spam-detector-application.onrender.com',
+    'https://ai-spam-detector-application.vercel.app',
     'http://localhost:5173',  # React development server
 ]
 
