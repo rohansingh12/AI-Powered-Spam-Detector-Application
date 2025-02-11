@@ -41,7 +41,7 @@ const Register: React.FC = () => {
     setError(null);
 
     try {
-      await axios.post("http://127.0.0.1:8000/register/", {
+      await axios.post("https://ai-powered-spam-detector-application.onrender.com/register/", {
         name: formData.name,
         email: formData.email,
         phone_number: formData.phoneNumber,

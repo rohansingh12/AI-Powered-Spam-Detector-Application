@@ -59,6 +59,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
+    'https://ai-powered-spam-detector-application.onrender.com/',
     'http://localhost:5173',  # React development server
 ]
 

@@ -18,7 +18,7 @@ const Search: React.FC<SearchProps> = ({ token }) => {
     setResults([]);
 
     try {
-      const response = await axios.get(`http://127.0.0.1:8000/search_by_name/?name=${searchName}`, {
+      const response = await axios.get(`https://ai-powered-spam-detector-application.onrender.com/search_by_name/?name=${searchName}`, {
         headers: { Authorization: `Token ${token}` },
       });
       if (response.data && response.data.length > 0) {
@@ -37,7 +37,7 @@ const Search: React.FC<SearchProps> = ({ token }) => {
 
     try {
       const response = await axios.get(
-        `http://127.0.0.1:8000/search_by_phone_number/?phone_number=${searchPhone}`,
+        `https://ai-powered-spam-detector-application.onrender.com/search_by_phone_number/?phone_number=${searchPhone}`,
         {
           headers: { Authorization: `Token ${token}` },
         }

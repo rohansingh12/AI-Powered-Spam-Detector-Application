@@ -18,7 +18,7 @@ const MarkSpam: React.FC<MarkSpamProps> = ({ token }) => {
 
     try {
       await axios.post(
-        "http://127.0.0.1:8000/spams/",
+        "https://ai-powered-spam-detector-application.onrender.com/spams/",
         { phone_number: phoneNumber, comment }, // Send comment along with phone number
         {
           headers: { Authorization: `Token ${token}` },
